@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78BB281C-5C35-4A04-B423-11A8D9FA3152}</ProjectGuid>
+    <ProjectGuid>{5F83826E-A728-4674-87F1-869FCFCA0100}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Builder</RootNamespace>
-    <AssemblyName>Builder</AssemblyName>
+    <RootNamespace>Composite</RootNamespace>
+    <AssemblyName>Composite</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CivilEngineer.cs" />
-    <Compile Include="House.cs" />
-    <Compile Include="HouseBuilder.cs" />
-    <Compile Include="HousePlan.cs" />
-    <Compile Include="IglooHouseBuilder.cs" />
+    <Compile Include="CreateDirectory.cs" />
+    <Compile Include="Developer.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipiHouseBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="summary\Builder.txt" />
+    <Content Include="summary\Composite.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

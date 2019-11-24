@@ -12,10 +12,10 @@ namespace  SingleTone
     {
          static void Main()
         {
-            Console.WriteLine("Plea Se write  Some text");
+            Console.WriteLine("Please write  Some text");
             var text = Console.ReadLine();
             Log.GetInstance.LogToText(text);
-            Console.WriteLine("Plea Se wait read all file text");
+            Console.WriteLine("Please wait read all file text");
             Log.GetInstance.ReadFileText();
             Console.ReadLine();
             

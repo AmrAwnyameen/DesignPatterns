@@ -16,7 +16,7 @@ namespace Builder
         }
         public void BuildBasement()
         {
-            _house.SetBasement(" TipiHouse Bars");
+            _house.SetBasement("TipiHouse Bars");
         }
 
         public void BuildStructure()

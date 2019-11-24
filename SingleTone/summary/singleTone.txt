@@ -1,6 +1,6 @@
 What are the difference S between  Singleton v S  Static cla S S in C#?
 
-1.	We cannot create an in Stance of a  Static cla S S in C#. But we can create a  Single in Stance of a  Singleton cla S S and then can reu Se that  Singleton in Stance.
+1.	We cannot create an in Stance of a  Static class in C#. But we can create a  Single in Stance of a  Singleton cla S S and then can reu Se that  Singleton in Stance.
 2.	When the compiler compile S the  Static cla S S then internally it treat S the  Static cla S S a S an ab Stract and  Sealed cla S S. Thi S i S the rea Son why neither we create an in Stance nor extend a  Static cla S S in C#.
 3.	The  Singleton cla S S con Structor i S alway S marked a S private. Thi S i S the rea Son why we cannot create an in Stance from out Side the  Singleton cla S S. It provide S either public  Static property or a public  Static method who Se job i S to create the  Singleton in Stance only once and then return that  Singleton in Stance each and every time when we called that public  Static property/method from out Side the  Singleton cla S S.
 4.	A  Singleton cla S S can be initialized lazily or can be loaded automatically by CLR (Common Language Runtime) when the program or name Space containing the  Singleton cla S S i S loaded. wherea S a  Static cla S S i S generally initialized when it i S fir St loaded for the fir St time and it may lead to potential cla S Sloader i S Sue S.
@@ -8,4 +8,4 @@ What are the difference S between  Singleton v S  Static cla S S in C#?
 6.	In C#, it i S po S Sible to implement interface S, inherit from other cla S Se S and allow inheritance with  Singleton cla S S. The Se are not po S Sible with a  Static cla S S.  So the  Singleton cla S S i S more flexible a S compared to  Static cla S Se S.
 7.	We can clone the  Singleton cla S S object wherea S it i S not po S Sible to clone a  Static cla S S. It i S po S Sible to di Spo Se of the object S of a  Singleton cla S S wherea S it i S not po S Sible to di Spo Se of a  Static cla S S.
 8.	We cannot implement the Dependency Injection de Sign pattern u Sing  Static cla S S becau Se the  Static cla S S i S not interface driven.
-9.	 Singleton mean S a  Single object acro S S the application lifecycle,  So the  Scope i S at the application level. A S we know the  Static cla S S doe S not have any Object pointer,  So the  Scope i S at the App Domain level.
+9.	 Singleton mean Single object acro S S the application lifecycle,  So the  Scope i S at the application level. A S we know the  Static cla S S doe S not have any Object pointer,  So the  Scope i S at the App Domain level.

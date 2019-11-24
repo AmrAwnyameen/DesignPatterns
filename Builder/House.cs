@@ -2,10 +2,10 @@
 {
     public class House:IHousePlan
     {
-        private string _basement;
-        private string _structure;
-        private string _roof;
-        private string _interior;
+        public string _basement;
+        public string _structure;
+        public string _roof;
+        public string _interior;
         public void SetBasement(string basement)
         {
             this._basement = basement;
