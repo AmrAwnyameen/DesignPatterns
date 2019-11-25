@@ -1,0 +1,3 @@
+The Strategy design pattern defines a family of algorithms, then makes them interchangeable by encapsulating each as an object. Consequently, the actual operation of the algorithm can vary based on other inputs, such as which client is using it.
+
+The basic idea of this pattern is that if we encapsulate behavior as objects, we can then select which object to use and, thereby, which behavior to implement based upon some external inputs or state. We further allow for many different behaviors to be implemented without creating huge if/then or switch statements.
