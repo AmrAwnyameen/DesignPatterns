@@ -9,7 +9,6 @@ namespace StrategyPattern
     public class CookMethod
     {
         private string _food;
-        private  ICook _icCook;
 
         public void SetFood(string foodName)
         {
